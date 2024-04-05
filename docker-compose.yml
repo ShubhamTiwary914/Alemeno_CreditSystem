@@ -19,8 +19,8 @@ services:
     container_name: mysql_db
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: example
-      MYSQL_DATABASE: myapp
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: alemeno_data
     volumes:
       - mysql_data:/var/lib/mysql
 
