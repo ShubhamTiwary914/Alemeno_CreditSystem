@@ -19,7 +19,7 @@ First, Clone the Repo
 
 > Run the Docker Compose for Loading Node & Mysql Containers + Redis for Celery 
 ```
-  docker-compose up -f docker-compose.yml
+  docker-compose up 
 ```
 
 <br />
